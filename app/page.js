@@ -63,7 +63,7 @@ export default function Home() {
             type="text"
             value={url}
             placeholder="Type here..."
-            className="rounded-xl p-2 h-8 md:w-96 w-50 outline-4 text-black text-lg"
+            className="rounded-xl p-2 h-8 md:w-96 w-40 outline-4 text-black text-lg"
             onChange={handleURL}
           />
         </div>
@@ -73,7 +73,7 @@ export default function Home() {
             type="text"
             value={shorturl}
             placeholder="Type here..."
-            className="rounded-xl p-2 h-8 md:w-96 w-50 outline-4 text-black text-lg"
+            className="rounded-xl p-2 h-8 md:w-96 w-40 outline-4 text-black text-lg"
             onChange={handleShortURL}
           />
         </div>
