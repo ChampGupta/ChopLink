@@ -56,14 +56,14 @@ export default function Home() {
 
   return (
     <main className="bg-[#74B3CE] h-screen flex justify-center items-center">
-      <div className="bg-[#0B181E] text-slate-100 h-[500px] w-[700px] flex flex-col justify-start items-start p-10 rounded-lg gap-5">
+      <div className="bg-[#0B181E] text-slate-100 md:h-[500px] md:w-[600px] h-[450px] w-[300px] flex flex-col justify-start items-start p-10 rounded-lg gap-5">
         <div className="flex flex-col gap-2">
           <span className="text-lg">Enter your URL: </span>
           <input
             type="text"
             value={url}
             placeholder="Type here..."
-            className="rounded-xl p-2 h-8 w-96 outline-4 text-black text-lg"
+            className="rounded-xl p-2 h-8 md:w-96 w-50 outline-4 text-black text-lg"
             onChange={handleURL}
           />
         </div>
@@ -73,7 +73,7 @@ export default function Home() {
             type="text"
             value={shorturl}
             placeholder="Type here..."
-            className="rounded-xl p-2 h-8 w-96 outline-4 text-black text-lg"
+            className="rounded-xl p-2 h-8 md:w-96 w-50 outline-4 text-black text-lg"
             onChange={handleShortURL}
           />
         </div>
